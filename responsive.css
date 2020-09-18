@@ -1,0 +1,116 @@
+/* Start Responsive Css  */
+@media (max-width:1320px){
+    ul.primary_menu_one li a {
+        padding: 10px 12px;
+    }
+}
+
+@media (max-width:1200px){
+    .all_slider_con .slider_containt h1 {
+        font-size: 54px;
+    }
+    ul.primary_menu_one li a {
+        padding: 10px 9px;
+    }
+    .choise_us_txt .animated_play {
+        right: 124px;
+        bottom: 17px;
+    }
+    .call_bg .cllatn_txt a {
+        font-size: 27px;
+    }
+    .call_bg h2 {
+        font-size: 29px;
+    }
+    .nav-link {
+        padding: 0px;
+    }
+}
+
+@media (max-width:1157px){
+    .header_info .header_call {
+        width: 219px;
+        padding: 0px 0px;
+    }
+}
+@media screen and (max-width: 1157px) and (min-width: 990px)
+{
+    .navbar-expand-lg .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+    }
+    .header_info {
+        margin-left: 47%;
+    } 
+}
+@media screen and (max-width: 990px) and (min-width: 762px){
+    .round_txt {
+    bottom: -37px;
+    width: 138px;
+    height: 154px;
+    }
+}
+
+
+@media (max-width:768px){
+    .finix_txt{
+        text-align: center;
+    }
+    .items_all{
+        padding-top: 50px;
+    }
+    .clraeMar {
+        margin-top: 0px !important;
+    }
+    .mtl_itm {
+        margin-top: 0px !important;
+    }
+    .apply_now_section .apply_left {
+        margin-bottom: 29px;
+    }
+
+    .call_bg h2 {
+        border-right: 1px solid #f39e9f;
+    }
+    section.theme_section {
+        text-align: center;
+    }
+}
+@media (max-width:575px){
+    .all_slider_con .slider_containt h1 {
+        font-size: 23px;
+    }
+    .all_slider_con {
+        height: 593px;
+    }
+    .why_chose_us .items_all .maine_itm {
+        width: 82%;
+     }
+     .finix_txt h1 {
+        font-size: 37px;
+    }
+
+    .apply_now_section .apply_left {
+        width: 80%;
+        margin: auto;
+        padding-bottom: 23px;
+    }
+    .call_bg .cllatn_txt a {
+        font-size: 21px;
+    }
+    .call_bg .cllatn_txt span i {
+        font-size: 27px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width:575px){
+    .round_txt {
+        right: -14px;
+        bottom: -27px;
+        width: 141px;
+        height: 154px;
+    }
+}
